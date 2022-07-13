@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg  navbar-light  position-fixed ">
+        <a class=" logo" href="#">movie</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  d-sm-flex justify-content-sm-center" id="navbarNavAltMarkup">
+          <div class=" navbar-nav d-sm-flex justify-content-sm-between col-sm-4">
+           <li> <a class=" active" aria-current="page" href="/home page/index.html">Home</a></li>
+           <li> <a class="" href="/movie page/index.html">Movies</a></li>
+           <li> <a class="" href="/favorite/index.html">My Favorite 🖤</a>   </li>
+            <a href="/book now/index.html" class="btn nav-link d-flex d-sm-none book-now-btn text-white col-5 p-2"> book now </a>
+
+          </div>
+        </div>
+
+                     <!-- <a href="#" class="btn nav-link d-none d-sm-flex "> Sign In </a> -->
+                                         <a href="/book now/index.html" class="btn book-now-btn d-none d-sm-flex"> Book Now </a>
+
+
+    </nav>
+
+    <!-- bootstrap slider -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/home page/imges/amazing-avatar-hd-wallpaper-6910682dd15afd9b26f708ffc0c1763d.jpg"
+                    class="d-block " alt="...">
+                <div class="movie-info carousel-caption d-none d-md-block">
+                    <span></span>
+                    <h1> Avatar: The Way<br> of Water</h1>
+                    <a href="/book now/index.html" class="btn book-now-btn"> Book Now </a>
+
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/home page/imges/venom-movie-venom-movies-2018-movies-wallpaper-8110aed8ab1824b07d79b778f8d0d274.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="movie-info carousel-caption d-none d-md-block">
+
+                    <h1>Venom:Let There <br> Be Carnage</h1>
+                    <a href="/book now/index.html" class="btn book-now-btn"> Book Now </a>
+                    </a>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/home page/imges/video-games-spider-man-2018-spider-man-marvel-comics-wallpaper-88863de850504cb840fcf19e681214ba.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="movie-info carousel-caption d-none d-md-block">
+                    <h1>spider man : no <br> way home </h1>
+                    <a href="/book now/index.html" class="btn book-now-btn"> Book Now </a>
+
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- bootstrap slider -->
+
+
+    <!-- our teather section -->
+    <section class="our-theater d-flex align-items-center justify-content-center flex-column">
+        <h1>our theater</h1>
+        <div class="our-theater-container align-items-center justify-content-center">
+            <img class="side-img" src="imges/אולם 3.jpeg" alt="">
+            <img class="main-img" src="imges/tuko4.jpg" alt="">
+            <img class="side-img" src="imges/אולם 2.jpg" alt="">
+        </div>
+    </section>
+
+        <!-- our teather section -->
+
+    <!-- screened today section -->
+
+    <div class="screened-today-content">
+        <h1>Screened today</h1>
+        <div class="screened-today-container flex-wrap justify-content-center">
+            
+        </div>
+    </div >
+        <!-- screened today section -->
+
+
+        <!-- show movie info on click -->
+    <div class="popup-container"></div>
+            <!-- show movie info on click -->
+
+<!-- footer -->
+    <footer
+        class=" text-black d-flex flex-column flex-sm-row justify-content-around align-items-center justify-content-center">
+        <div class="Social-Networks fs-4">
+            <a href=""> <i class="fa-brands fa-instagram"></i></a>
+            <a href=""> <i class="fa-brands fa-tiktok"></i></a>
+            <a href=""> <i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""> <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <div class="middle-footer ">
+            create by: oshrat balay
+        </div>
+        <div
+            class="conect-with-us d-flex justify-content-between flex-column flex-sm-row  justify-content-around align-items-center text-center">
+            <div class="d-flex  flex-column">
+                <span class="fs-5">Contact us: </span>
+                <span>whatsapp: 0536487951</span>
+                <span>email: ob12@gmail.com</span>
+            </div>
+            <div class="d-flex  flex-column">
+                <span class="fs-5">Activity time:</span>
+                <span>Sunday - Thursday: 09:00 pm - 10.00 em .</span>
+                <span> Friday : 09:00 pm - 02.00 em .</span>
+            </div>
+        </div>
+        
+    </footer>
+<!-- footer -->
+
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="/movie page/js/script.js"></script>
+    <script src="script.js"></script>
+</html>
